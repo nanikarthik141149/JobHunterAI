@@ -49,7 +49,6 @@ export default function Sidebar() {
           </div>
         </div>
       </div>
-
       {/* Navigation */}
       <nav className="p-4 space-y-2">
         {sidebarItems.map((item) => {
@@ -68,7 +67,6 @@ export default function Sidebar() {
           );
         })}
       </nav>
-
       {/* Profile Section */}
       <div className="absolute bottom-0 left-0 right-0 p-4 border-t border-slate-200 bg-white">
         <div className="flex items-center gap-3">
@@ -76,7 +74,7 @@ export default function Sidebar() {
             <User size={16} className="text-slate-600" />
           </div>
           <div className="flex-1">
-            <p className="text-sm font-medium text-slate-900">Sarah Chen</p>
+            <p className="text-sm font-medium text-slate-900">Kavali Karthik</p>
             <p className="text-xs text-slate-500">ML Engineer</p>
           </div>
           <button className="text-slate-400 hover:text-slate-600">
