@@ -56,7 +56,7 @@ A comprehensive job search automation platform designed specifically for softwar
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone [<your-repo-url>](https://github.com/nanikarthik141149/JobHunterAI.git)
    cd jobtracker-pro
    ```
 
